@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Butler';
     src: local('Butler Light'),
+    local('Butler-Light'),
     url('../fonts/butler/Butler.woff2') format('woff2'),
     url('../fonts/butler/Butler.woff') format('woff'),
     url('../fonts/butler/Butler.ttf') format('truetype');
