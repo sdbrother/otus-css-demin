@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+main {
+    /*оставил комментарий для верстки*/
+    /*background: red;*/
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    height: 100vh;
+    min-width: 700px;
+    max-height: 1500px;
+    position: relative;
+}
+
+.promo {
+    /*оставил комментарий для верстки*/
+    /*background: green;*/
+}
+
+.promo-background {
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promo-wrapper {
+    z-index: 20;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5.5rem;
+    padding: 1.5em 1em;
+}
+
+.promo-title {
+    font-family: 'Butler', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.promo-description {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 0.25em;
+    margin-bottom: -1.2em;
+}

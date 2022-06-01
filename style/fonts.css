@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Light'),
+    local('Butler-Light'),
+    url('../fonts/butler/Butler.woff2') format('woff2'),
+    url('../fonts/butler/Butler.woff') format('woff'),
+    url('../fonts/butler/Butler.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'),
+    local('Roboto-Bold'),
+    url('../fonts/roboto/Robotobold.woff2') format('woff2'),
+    url('../fonts/roboto/Robotobold.woff') format('woff'),
+    url('../fonts/roboto/Robotobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
