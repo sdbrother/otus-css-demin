@@ -56,6 +56,7 @@ section {
     font-family: 'Butler', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 1em;
+    text-align: center;
 }
 
 .promo-description {
@@ -73,14 +74,19 @@ section {
 }
 
 .biography-img {
-    float: left;
-    margin-left: 1.5em;
+    margin-right: 5%;
+    max-width: 100%;
 }
 
-.biography-wrapper {
-    margin-top: 2em;
-    float: right;
-    margin-right: 2em;
+.biography-left, .biography-right {
+    float: left;
+    width: 50%;
+}
+
+.biography-wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .biography-name {
@@ -88,6 +94,7 @@ section {
     font-size: 1em;
     max-width: 4em;
     margin-bottom: 0.2em;
+    padding-top: 2.2em;
 }
 
 .biography-title {
@@ -95,10 +102,8 @@ section {
 }
 
 .biography h2 {
-    float: right;
-    right: 0;
-    bottom: 0;
-    margin: 18.2em -2em;
+    right: 60px;
+    bottom: 29%;
     position: absolute;
     transform: rotate(-90deg);
     font-family: 'Roboto', 'Arial', sans-serif;
@@ -122,7 +127,4 @@ section {
 .biography blockquote {
     font-size: 0.4em;
     max-width: 13em;
-}
-blockquote q {
-    quotes: "‘‘" "’’"
 }
