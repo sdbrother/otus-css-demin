@@ -83,6 +83,22 @@ section {
     width: 50%;
 }
 
+.biography-left {
+    padding-left: 1.5em;
+}
+
+.biography-right {
+    padding: 0 8%;
+}
+
+.biography-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -10px;
+}
+
 .biography-wrapper:after {
     content: "";
     display: block;
@@ -93,7 +109,7 @@ section {
     font-weight: 300;
     font-size: 1em;
     max-width: 4em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.4em;
     padding-top: 2.2em;
 }
 
@@ -102,8 +118,8 @@ section {
 }
 
 .biography h2 {
-    right: 60px;
-    bottom: 29%;
+    right: 40px;
+    bottom: 18%;
     position: absolute;
     transform: rotate(-90deg);
     font-family: 'Roboto', 'Arial', sans-serif;
@@ -112,7 +128,7 @@ section {
 
 .biography-skills {
     font-size: 0.2em;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
 }
 
 .biography hr {
